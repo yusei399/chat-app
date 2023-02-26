@@ -1,12 +1,14 @@
 import type { NextPage } from 'next'
 import { Box, Heading} from '@chakra-ui/react'
+import Page from '@/src/pages/signup'
 
-const Page: NextPage = () => {
+const Home = () => {
   return (
-    <Box>
-      <Heading>chacra ui</Heading>
-    </Box>
+    // <Box>
+    //   <Heading>chacra ui</Heading>
+    // </Box>
+    <Page/>
   )
 }
 
-export default Page
+export default Home
